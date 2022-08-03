@@ -25,7 +25,12 @@ DEPEND="
 	Slicer-Loadable/Annotations
 "
 
-RDEPEND="${DEPEND}"
+RDEPEND="
+	${PYTHON_DEPS}
+	${DEPEND}
+"
+
+REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 PATCHES=(
 	${FILESDIR}/0001-ENH-Make-Segmentations-a-separate-module.patch

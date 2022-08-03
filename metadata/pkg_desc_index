@@ -1,8 +1,9 @@
 Slicer-CLI/ACPCTransform 9999: ACPCTransorm module for 3D Slicer
-Slicer-CLI/AddScalarVolumes 9999: 3D Slicer is an open source software platform for medical image informatics, image processing, and three-dimensional visualization. This package is a live-build which will pull the master branch of the official 3D Slicer repository.
+Slicer-CLI/AddScalarVolumes 9999: AddScalarVolumes module for 3D-Slicer
 Slicer-CLI/ExtractSkeleton 9999: Extract Skeleton module for 3D Slicer
 Slicer-CLI/ModelMaker 9999: Model Maker module for 3D Slicer
 Slicer-CLI/SlicerExecutionModel 1.0.0: Insight Segmentation and Registratio Toolkit for Slicer
+Slicer-Loadable/Segmentations 9999: Segmentations module for 3D-Slicer
 sci-libs/SimpleITK 1.2.4: A layer built on top of the Insight Toolkit (ITK), intended to simplify and facilitate ITK's use in rapid prototyping, education and interpreted languages.
 sci-libs/itk 5.3.0: NLM Insight Segmentation and Registration Toolkit
 sci-libs/vtk 9.1.0: This is the 3D Slicer Visualization Toolkit

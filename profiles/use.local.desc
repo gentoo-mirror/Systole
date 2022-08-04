@@ -2,9 +2,10 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-sci-libs/itk:itkv4-compat - Compatibility for applications using ITKv4 API
+sci-libs/itk:deprecated - Build deprecated modules
+sci-libs/itk:dicom - Build dicom support
 sci-libs/itk:review - Enable compilation of methods under review
-sci-libs/itk:vtkglue - PLEASE FIX MY DESCRIPTION
+sci-libs/itk:vtkglue - Build vtkGlue support
 sci-libs/vtk:R - Add support for the R language.
 sci-libs/vtk:X - Use XOrg for render windows.
 sci-libs/vtk:aqua - Enable vtk COCOA

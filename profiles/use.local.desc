@@ -12,6 +12,7 @@ sci-libs/vtk:aqua - Enable vtk COCOA
 sci-libs/vtk:boost - Use the Boost library.
 sci-libs/vtk:doc - Install doxygen html documentation.
 sci-libs/vtk:examples - Install vtk examples' code.
+sci-libs/vtk:exodus - Build exodus support.
 sci-libs/vtk:ffmpeg - Enable ffmpeg/libav-based audio/video codec support.
 sci-libs/vtk:gdal - Use gdal library (geospatial vector formats).
 sci-libs/vtk:gl2ps - Enable support for the OpenGL-to-Postscript printing library.
@@ -20,6 +21,7 @@ sci-libs/vtk:java - Add support for Java.
 sci-libs/vtk:json - Enable JSON support for the modules that support it.
 sci-libs/vtk:logging - Enable logging.
 sci-libs/vtk:mpi - Add MPI (Message Passing Interface) layer to the modules that support it.
+sci-libs/vtk:nvidia - Build nvidia specific settings.
 sci-libs/vtk:odbc - Add ODBC Support (Open DataBase Connectivity) for the modules that support it.
 sci-libs/vtk:offscreen - Use an offscreen renderer by default.
 sci-libs/vtk:postgres - Add support for the postgresql database for the modules that use it.
@@ -29,7 +31,6 @@ sci-libs/vtk:rendering - Enable Rendering modules.
 sci-libs/vtk:tbb - Add TBB support (Thread Building Blocks).
 sci-libs/vtk:tcl - Add support for the TCL dynamic language.
 sci-libs/vtk:theora - Add Theora Video Compression Codec support for the modules that use it.
-sci-libs/vtk:video_cards_nvidia - Build Nvidia specific settings.
 sci-libs/vtk:views - Enable Views modules.
 sci-libs/vtk:web - Enable Web modules.
 sci-libs/vtk:xdmf2 - Add support for XDMF (Extensible Data Model Format).

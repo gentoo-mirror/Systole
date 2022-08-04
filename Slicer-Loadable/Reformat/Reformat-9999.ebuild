@@ -2,7 +2,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3_6 )
+PYTHON_COMPAT=( python3_9 )
 
 inherit cmake python-single-r1 git-r3
 
@@ -21,13 +21,16 @@ LICENSE="BSD"
 
 SLOT="0"
 
-KEYWORDS="~amd64"
-
 DEPEND="
 	sci-medical/Slicer
 "
 
-RDEPEND="${DEPEND}"
+RDEPEND="
+	${DEPEND}
+	${PYTHON_DEPS}
+"
+
+REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 PATCHES=(
 	${FILESDIR}/0001-ENH-Make-Reformat-a-separate-module.patch

@@ -24,7 +24,10 @@ DEPEND="
 	Slicer-Loadable/SubjectHierarchy
 "
 
-RDEPEND="${DEPEND}"
+RDEPEND="
+	${DEPEND}
+	${PYTHON_DEPS}
+"
 
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 

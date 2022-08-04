@@ -1,7 +1,8 @@
 # Copyright @ 2019 Oslo University Hospital. All rights reserved.
 
 EAPI=7
-PYTHON_COMPAT=( python3_{8,9} )
+
+PYTHON_COMPAT=( python3_9 )
 
 inherit cmake git-r3 python-r1
 
@@ -15,24 +16,24 @@ EGIT_REPO_URI="https://github.com/Slicer/vtkAddon"
 EGIT_BRANCH="master"
 
 LICENSE="BSD"
+
 SLOT="0"
-KEYWORDS="~amd64"
 
 IUSE="python"
 
-REQURIED_USE="
-	${PYTHON_REQUIRED_USE}
+DEPEND="
+	sci-libs/vtk
 	python? ( ${PYTHON_DEPS}
-			  sci-libs/VTK[python] )
-	!python? ( sci-libs/CTK )
+			  sci-libs/vtk[python] )
+	!python? ( sci-libs/vtk )
 "
 
-DEPEND="
-    sci-libs/vtk
-    ${PYTHON_DEPS}
-    "
+RDEPEND="
+	${DEPEND}
+	${PYTHON_DEPS}
+"
 
-RDEPEND="${DEPEND}"
+REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 PATCHES=()
 

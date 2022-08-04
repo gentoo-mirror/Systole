@@ -24,6 +24,7 @@ Slicer-Loadable/Units 9999: Units module for 3D Slicer
 Slicer-Loadable/ViewControllers 9999: ViewControllers module for 3D-Slicer
 Slicer-Loadable/VolumeRendering 9999: VolueRendering module for 3D-Slicer
 Slicer-Loadable/Volumes 9999: Volumes module for 3D-Slicer
+Slicer-Scripted/EditorLib 9999: EditorLib module for 3D-Slicer
 sci-libs/SimpleITK 1.2.4: A layer built on top of the Insight Toolkit (ITK), intended to simplify and facilitate ITK's use in rapid prototyping, education and interpreted languages.
 sci-libs/itk 5.3.0: NLM Insight Segmentation and Registration Toolkit
 sci-libs/vtk 9.1.0: This is the 3D Slicer Visualization Toolkit

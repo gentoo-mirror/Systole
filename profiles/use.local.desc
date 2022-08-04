@@ -13,7 +13,6 @@ sci-libs/vtk:boost - Use the Boost library.
 sci-libs/vtk:doc - Install doxygen html documentation.
 sci-libs/vtk:examples - Install vtk examples' code.
 sci-libs/vtk:exodus - Build exodus support.
-sci-libs/vtk:ffmpeg - Enable ffmpeg/libav-based audio/video codec support.
 sci-libs/vtk:gdal - Use gdal library (geospatial vector formats).
 sci-libs/vtk:gl2ps - Enable support for the OpenGL-to-Postscript printing library.
 sci-libs/vtk:imaging - Enable Imaging modules.

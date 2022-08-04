@@ -2,14 +2,12 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3_6 )
+PYTHON_COMPAT=( python3_9 )
 
 inherit cmake python-single-r1 git-r3
 
 # Short one-line description of this package.
-DESCRIPTION="3D Slicer is an open source software platform for medical image informatics,
-image processing, and three-dimensional visualization. This package is a
-live-build which will pull the master branch of the official 3D Slicer repository."
+DESCRIPTION="Markups module for 3D-Slicer"
 
 EGIT_REPO_URI="https://github.com/Slicer/Slicer.git"
 EGIT_BRANCH="master"
@@ -21,14 +19,17 @@ LICENSE="BSD"
 
 SLOT="0"
 
-KEYWORDS="~amd64"
-
 DEPEND="
 	sci-medical/Slicer
 	Slicer-Loadable/SubjectHierarchy
 "
 
-RDEPEND="${DEPEND}"
+RDEPEND="
+	${DEPEND}
+	${PYTHON_DEPS}
+"
+
+REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 PATCHES=(
 	${FILESDIR}/0001-Make-Markups-a-separate-module.patch

@@ -9,6 +9,8 @@ Slicer-Loadable/Colors 9999: Colors module for 3D-Slicer
 Slicer-Loadable/Data 9999: Data module for 3D-Slicer
 Slicer-Loadable/DoubleArrays 9999: DoubleArrays module for 3D-Slicer
 Slicer-Loadable/Markups 9999: Markups module for 3D-Slicer
+Slicer-Loadable/Models 9999: Models module for 3D-Slicer
+Slicer-Loadable/Plots 9999: Plots module for 3D-Slicer
 Slicer-Loadable/SceneViews 9999: SceneViews module for 3D-Slicer
 Slicer-Loadable/Segmentations 9999: Segmentations module for 3D-Slicer
 Slicer-Loadable/SlicerWelcome 9999: Welcome module for 3D-Slicer

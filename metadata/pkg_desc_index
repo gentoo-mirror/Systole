@@ -6,6 +6,7 @@ Slicer-CLI/SlicerExecutionModel 1.0.0: Insight Segmentation and Registratio Tool
 Slicer-Loadable/Annotations 9999: Annotations module for 3D-Slicer
 Slicer-Loadable/DoubleArrays 9999: DoubleArrays module for 3D-Slicer
 Slicer-Loadable/Markups 9999: Markups module for 3D-Slicer
+Slicer-Loadable/SceneViews 9999: SceneViews module for 3D-Slicer
 Slicer-Loadable/Segmentations 9999: Segmentations module for 3D-Slicer
 Slicer-Loadable/SlicerWelcome 9999: Welcome module for 3D-Slicer
 Slicer-Loadable/Terminologies 9999: Terminologies module for 3D-Slicer

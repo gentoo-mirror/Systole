@@ -3,7 +3,9 @@ Slicer-CLI/AddScalarVolumes 9999: AddScalarVolumes module for 3D-Slicer
 Slicer-CLI/ExtractSkeleton 9999: Extract Skeleton module for 3D Slicer
 Slicer-CLI/ModelMaker 9999: Model Maker module for 3D Slicer
 Slicer-CLI/SlicerExecutionModel 1.0.0: Insight Segmentation and Registratio Toolkit for Slicer
+Slicer-Loadable/Annotations 9999: Annotations module for 3D-Slicer
 Slicer-Loadable/Segmentations 9999: Segmentations module for 3D-Slicer
+Slicer-Loadable/SlicerWelcome 9999: Welcome module for 3D-Slicer
 Slicer-Loadable/Terminologies 9999: Terminologies module for 3D-Slicer
 sci-libs/SimpleITK 1.2.4: A layer built on top of the Insight Toolkit (ITK), intended to simplify and facilitate ITK's use in rapid prototyping, education and interpreted languages.
 sci-libs/itk 5.3.0: NLM Insight Segmentation and Registration Toolkit

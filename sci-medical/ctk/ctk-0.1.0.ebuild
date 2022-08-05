@@ -2,9 +2,9 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3_{8,9} )
+PYTHON_COMPAT=( python3_9 )
 
-inherit multibuild python-r1 cmake
+inherit python-r1 cmake
 
 # Short one-line description of this package.
 DESCRIPTION="A set of common support code for medical imaging, surgical navigation, and related purposes"

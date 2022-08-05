@@ -5,11 +5,9 @@ EAPI=7
 PYTHON_COMPAT=( python3_9 )
 
 inherit cmake python-single-r1 git-r3
- 
+
 # Short one-line description of this package.
-DESCRIPTION="3D Slicer is an open source software platform for medical image informatics,
-image processing, and three-dimensional visualization. This package is a
-live-build which will pull the master branch of the official 3D Slicer repository."
+DESCRIPTION="3D Slicer is an open source software for medical image processing and visualization"
 
 EGIT_REPO_URI="https://github.com/Slicer/Slicer.git"
 EGIT_BRANCH="main"
@@ -21,15 +19,13 @@ LICENSE="BSD"
 
 SLOT="0"
 
-KEYWORDS="~amd64"
-
 IUSE="python cli sitk"
 
-RDEPEND="
-	python? ( ${PYTHON_DEPS}
-			  sci-medical/CTK[python]
-			  sci-libs/vtkAddon[python]
-			   )
+REQUIRED_USE="python? ( ${PYTHON_REQUIRED_USE} )"
+
+DEPEND="
+	python? ( sci-medical/CTK[python]
+				sci-libs/vtkAddon[python] )
 	!python? ( sci-medical/ctk
 			   sci-libs/vtkAddon )
 	dev-qt/qtcore
@@ -47,18 +43,21 @@ RDEPEND="
 	sci-medical/teem
 	dev-python/PythonQt_CTK
 	cli? ( Slicer-CLI/SlicerExecutionModel )
-    sci-libs/itk[vtkglue,deprecated]
+	sci-libs/itk[vtkglue,deprecated]
 	sitk? ( sci-libs/SimpleITK )
-    >=sci-libs/vtk-9.1.0[gl2ps]
+	>=sci-libs/vtk-9.1.0
 "
 
-DEPEND="${RDEPEND}"
+RDEPEND="
+	${DEPEND}
+	python? ( ${PYTHON_DEPS} )
+"
 
 BDEPEND=">=dev-util/cmake-3.23.1"
 
 PATCHES=(
-    ${FILESDIR}/0001-COMP-Add-the-VTK-CommonSystem-component.patch
-    ${FILESDIR}/0002-Find-Eigen.patch
+	${FILESDIR}/0001-COMP-Add-the-VTK-CommonSystem-component.patch
+	${FILESDIR}/0002-Find-Eigen.patch
 	# ${FILESDIR}/0001-COMP-Remove-uneccessary-link-libraries-for-QTCore.patch
 	# ${FILESDIR}/0002-COMP-Fix-link-libraries-in-QTGUI.patch
 	# ${FILESDIR}/0003-COMP-Generate-and-Install-SlicerConfig-install-tree.patch

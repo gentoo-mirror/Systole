@@ -1,15 +1,13 @@
 # Copyright @ 2019 Oslo University Hospital. All rights reserved.
 
-EAPI=6
+EAPI=7
 
-PYTHON_COMPAT=( python3_6 )
+PYTHON_COMPAT=( python3_9 )
 
-inherit cmake-utils multilib python-r1 qmake-utils git-r3
+inherit cmake python-r1 git-r3
 
 # Short one-line description of this package.
-DESCRIPTION="3D Slicer is an open source software platform for medical image informatics,
-image processing, and three-dimensional visualization. This package is a
-live-build which will pull the master branch of the official 3D Slicer repository."
+DESCRIPTION="The Vascular Modeling Toolkit"
 
 EGIT_REPO_URI="https://github.com/vmtk/vmtk"
 EGIT_BRANCH="master"
@@ -17,19 +15,22 @@ EGIT_BRANCH="master"
 # Homepage, not used by Portage directly but handy for developer reference
 HOMEPAGE="http://vmtk.org/"
 
-LICENSE="VTK"
+LICENSE="BSD"
 
 SLOT="0"
 
-KEYWORDS="~amd64"
-
 DEPEND="
 	dev-lang/python[tk]
-	>=sci-libs/ITK-5.0
-	>=sci-libs/VTK-8.2
+	>=sci-libs/itk-5.0
+	>=sci-libs/vtk-9.1
 "
 
-RDEPEND="${DEPEND}"
+RDEPEND="
+	${DEPEND}
+	${PYTHON_DEPS}
+"
+
+REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 PATCHES=(
 	${FILESDIR}/0001-COMP-Adapt-vmtk-to-ITK-5.1.patch
@@ -39,7 +40,7 @@ PATCHES=(
 
 src_prepare() {
 
-	cmake-utils_src_prepare
+	cmake_src_prepare
 }
 
 src_configure(){
@@ -64,7 +65,7 @@ src_configure(){
 		-DVMTK_USE_RENDERING=ON
 	)
 
-	cmake-utils_src_configure
+	cmake_src_configure
 }
 
 pkg_postinst() {

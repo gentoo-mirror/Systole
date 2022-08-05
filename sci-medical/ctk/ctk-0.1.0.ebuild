@@ -20,21 +20,18 @@ LICENSE="Apache-2.0"
 
 SLOT="0"
 
-KEYWORDS="~amd64"
-
 IUSE="python"
 
-
-RDEPEND="
-	python? ( ${PYTHON_DEPS}
-			  dev-python/PythonQt_CTK
-			  sci-libs/vtk[python] )
+DEPEND="
+	python? (
+		dev-python/PythonQt_CTK
+		sci-libs/vtk[python] )
 	!python? ( sci-libs/vtk )
 	dev-qt/designer
 	dev-qt/qtconcurrent
 	dev-qt/qtcore
 	dev-qt/qtgui
-    dev-qt/qtmultimedia
+	dev-qt/qtmultimedia
 	dev-qt/qtnetwork
 	dev-qt/qtopengl
 	dev-qt/qtsql
@@ -44,7 +41,14 @@ RDEPEND="
 	dev-qt/qtxml
 	sci-libs/itk
 "
-DEPEND="${RDEPEND}"
+RDEPEND="
+	${DEPEND}
+	python? ( ${PYTHON_DEPS} )
+"
+
+BDEPEND="app-arch/unzip"
+
+REQUIRED_USE="python? ( ${PYTHON_REQUIRED_USE} )"
 
 PATCHES=(
 	${FILESDIR}/0001-COMP-Fix-Unknown-CMake-command-ctk_add_executable_ut.patch

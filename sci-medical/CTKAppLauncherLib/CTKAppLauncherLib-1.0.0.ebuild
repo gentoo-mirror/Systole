@@ -2,7 +2,7 @@
 
 EAPI=7
 
-inherit cmake-utils
+inherit cmake
 
 # Short one-line description of this package.
 DESCRIPTION="A set of common support code for medical imaging, surgical navigation, and related purposes"
@@ -20,11 +20,10 @@ SLOT="0"
 
 KEYWORDS="~amd64"
 
-IUSE=""
-
 DEPEND="dev-qt/qtcore
 		dev-qt/qtwidgets"
 RDEPEND="${DEPEND}"
+BDEPEND="app-arch/unzip"
 
 PATCHES=()
 
@@ -41,7 +40,7 @@ src_unpack() {
 
 src_prepare() {
 
-	cmake-utils_src_prepare
+	cmake_src_prepare
 }
 
 src_configure(){
@@ -57,5 +56,5 @@ src_configure(){
 		# -DCTK_INSTALL_CONFIG_DIR=lib64/CTKAppLauncher-1.0.0
 	)
 
-	cmake-utils_src_configure
+	cmake_src_configure
 }

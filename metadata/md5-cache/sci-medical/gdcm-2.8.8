@@ -1,13 +1,14 @@
 BDEPEND=>=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
-DEFINED_PHASES=compile configure install postinst prepare test unpack
-DEPEND=sci-libs/itk app-arch/unzip
-DESCRIPTION=Insight Segmentation and Registratio Toolkit for Slicer
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=media-libs/openjpeg dev-libs/libxml2 sys-libs/zlib app-text/poppler dev-libs/openssl sci-libs/dcmtk
+DESCRIPTION=Implementation of the DICOM standard
 EAPI=7
-HOMEPAGE=https://github.com/Slicer/ITK/
+HOMEPAGE=http://gdcm.sourceforge.net/
 INHERIT=cmake
-LICENSE=BSD
-RDEPEND=sci-libs/itk app-arch/unzip
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=media-libs/openjpeg dev-libs/libxml2 sys-libs/zlib app-text/poppler dev-libs/openssl sci-libs/dcmtk
 SLOT=0
-SRC_URI=https://github.com/Slicer/SlicerExecutionModel/archive/1788b378ed2e4928cded2bc9ecdc2b37c7f2af5f.zip -> SlicerExecutionModel-1.0.0.zip
+SRC_URI=https://sourceforge.net/projects/gdcm/files/gdcm%202.x/GDCM%202.8.8/gdcm-2.8.8.tar.gz/download -> gdcm-2.8.8.tar.gz
 _eclasses_=toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	flag-o-matic	38d6ec96711cea42a5cb1cc723a6e906	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	cmake	44afbf15c35884f7c840470f1cf05d0d
-_md5_=af7779766848476c1a6c78e53781d06d
+_md5_=d3e97e965d6961227367700a5989361d

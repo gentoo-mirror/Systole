@@ -1,15 +1,15 @@
 BDEPEND=app-arch/unzip >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=python? ( dev-python/PythonQt_CTK sci-libs/vtk[python] ) !python? ( sci-libs/vtk ) dev-qt/designer dev-qt/qtconcurrent dev-qt/qtcore dev-qt/qtgui dev-qt/qtmultimedia dev-qt/qtnetwork dev-qt/qtopengl dev-qt/qtsql dev-qt/qttest dev-qt/qtwidgets dev-qt/qtxmlpatterns dev-qt/qtxml sci-libs/itk
+DEPEND=python? ( dev-python/PythonQt_CTK >=sci-libs/vtk-9.1[python,qt5,rendering] ) !python? ( >=sci-libs/vtk-9.1[qt5,rendering] ) dev-qt/designer dev-qt/qtconcurrent dev-qt/qtcore dev-qt/qtgui dev-qt/qtmultimedia dev-qt/qtnetwork dev-qt/qtopengl dev-qt/qtsql dev-qt/qttest dev-qt/qtwidgets dev-qt/qtxmlpatterns dev-qt/qtxml sci-libs/itk
 DESCRIPTION=A set of common support code for medical imaging, surgical navigation, and related purposes
 EAPI=7
 HOMEPAGE=https://www.commontk.org/
 INHERIT=python-r1 cmake
 IUSE=python python_targets_python3_9
 LICENSE=Apache-2.0
-RDEPEND=python? ( dev-python/PythonQt_CTK sci-libs/vtk[python] ) !python? ( sci-libs/vtk ) dev-qt/designer dev-qt/qtconcurrent dev-qt/qtcore dev-qt/qtgui dev-qt/qtmultimedia dev-qt/qtnetwork dev-qt/qtopengl dev-qt/qtsql dev-qt/qttest dev-qt/qtwidgets dev-qt/qtxmlpatterns dev-qt/qtxml sci-libs/itk python? ( python_targets_python3_9? ( >=dev-lang/python-3.9.12:3.9 ) )
+RDEPEND=python? ( dev-python/PythonQt_CTK >=sci-libs/vtk-9.1[python,qt5,rendering] ) !python? ( >=sci-libs/vtk-9.1[qt5,rendering] ) dev-qt/designer dev-qt/qtconcurrent dev-qt/qtcore dev-qt/qtgui dev-qt/qtmultimedia dev-qt/qtnetwork dev-qt/qtopengl dev-qt/qtsql dev-qt/qttest dev-qt/qtwidgets dev-qt/qtxmlpatterns dev-qt/qtxml sci-libs/itk python? ( python_targets_python3_9? ( >=dev-lang/python-3.9.12:3.9 ) )
 REQUIRED_USE=python? ( || ( python_targets_python3_9 ) )
 SLOT=0
 SRC_URI=https://github.com/commontk/CTK/archive/ec816cbb77986f6ee28c41a495e82238dee0e2d3.zip -> ctk-0.1.0.zip
 _eclasses_=multibuild	d26d81f242cb193d899a72bca423d0bd	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	dd5e1098e305ad508d21f496e9e37046	python-r1	7b65c41111cd80a4d4a0921e8d4a310c	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	flag-o-matic	38d6ec96711cea42a5cb1cc723a6e906	ninja-utils	58ec4e54962bf45d065fb95030701514	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	cmake	44afbf15c35884f7c840470f1cf05d0d
-_md5_=4ac65d06028222633352620bb14b85d4
+_md5_=52cfde1b8b5657906f0a00f80ead0f7a

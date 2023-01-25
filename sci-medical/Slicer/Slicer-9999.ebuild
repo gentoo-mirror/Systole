@@ -57,14 +57,16 @@ RDEPEND="
 BDEPEND=">=dev-util/cmake-3.23.1"
 
 PATCHES=(
-    ${FILESDIR}/0001-COMP-Add-vtk-CommonSystem-component-as-requirement.patch
-    ${FILESDIR}/0002-COMP-Find-Eigen-required.patch
-    ${FILESDIR}/0003-COMP-Adapt-to-new-qRestAPI-cmake.patch
-    ${FILESDIR}/0004-ENH-Make-optional-the-use-of-Slicer-ITK.patch
-    ${FILESDIR}/0005-ENH-Remove-conditional-code-for-old-VTK.patch
-    ${FILESDIR}/0006-ENH-Limit-CPack-on-non-superbuild-mode.patch
-    ${FILESDIR}/0007-ENH-Install-testing-data-only-with-testing-support.patch
-    ${FILESDIR}/0008-ENH-Add-GNUInstallDirs-to-installation-paths.patch
+ ${FILESDIR}/0001-COMP-Add-vtk-CommonSystem-component-as-requirement.patch
+ ${FILESDIR}/0002-COMP-Find-Eigen-required.patch
+ ${FILESDIR}/0003-COMP-Adapt-to-new-qRestAPI-cmake.patch
+ ${FILESDIR}/0004-ENH-Make-optional-the-use-of-Slicer-ITK.patch
+ ${FILESDIR}/0005-ENH-Remove-conditional-code-for-old-VTK.patch
+ ${FILESDIR}/0006-ENH-Limit-CPack-on-non-superbuild-mode.patch
+ ${FILESDIR}/0007-ENH-Install-testing-data-only-with-testing-support.patch
+ ${FILESDIR}/0008-ENH-Use-CMake-GNUInstallDirs-in-Slicer-directories.patch
+ ${FILESDIR}/0009-ENH-Use-slicer-installation-dirs-for-base-dev-compon.patch
+ ${FILESDIR}/0010-ENH-Directories.patch
 )
 
 src_prepare() {
@@ -117,10 +119,6 @@ src_configure(){
 		-DSlicer_INSTALL_CLIMODULES_BIN_DIR:STRING="lib64/Slicer-5.1.0/cli-modules"
 		-DSlicer_INSTALL_CLIMODULES_LIB_DIR:STRING="lib64/Slicer-5.1.0/cli-modules"
 		-DSlicer_INSTALL_LIBEXEC_DIR:STRING="lib64/Slicer-5.1.0/libexec"
-		-DSlicer_INSTALL_CMAKE_CONFIG_DIR:STRING="lib64/cmake/Slicer"
-		-DSlicer_INSTALL_CMAKE_DIR:STRING="lib64/Slicer-5.1.0/CMake"
-		-DSlicer_INSTALL_SHARE_DIR:STRING="share/Slicer-5.1.0"
-		-DSlicer_INSTALL_LIBEXEC_DIR:STRING="/usr/bin"
 		-DSlicer_INSTALL_ITKFACTORYREGISTRATION_INCLUDE_DIR:STRING="include/ITKFactoryRegistration"
 		-DSlicer_BUILD_vtkAddon:BOOL=OFF
 	)

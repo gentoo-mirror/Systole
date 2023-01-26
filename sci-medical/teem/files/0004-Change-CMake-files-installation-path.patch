@@ -1,0 +1,25 @@
+From 18a7019f660ad13a468876acdaa6c48109cf3799 Mon Sep 17 00:00:00 2001
+From: Rafael Palomar <rafael.palomar@ous-research.no>
+Date: Thu, 26 Jan 2023 07:54:56 +0100
+Subject: [PATCH 4/5] Change CMake files installation path
+
+---
+ CMakeLists.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 519b2cd6..590ae7fc 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -586,7 +586,7 @@ install(FILES
+   "${Teem_SOURCE_DIR}/CMake/TeemUse.cmake"
+   "${Teem_BINARY_DIR}/TeemBuildSettings.cmake"
+   "${Teem_BINARY_DIR}/TeemLibraryDepends.cmake"
+-  DESTINATION ${Teem_LIB_INSTALL_DIR}${EXTRA_INSTALL_PATH}
++  DESTINATION "${Teem_SHARE_INSTALL_DIR}/Teem-${Teem_VERSION_STRING}/cmake"
+   COMPONENT Development
+   )
+ endif()
+-- 
+2.34.1
+

@@ -1,4 +1,4 @@
-From 52e40df78e057a085cef781fd86c54298805d9b7 Mon Sep 17 00:00:00 2001
+From 97fe1c7bc419166c3b20aaaccd527e69c72a3ca2 Mon Sep 17 00:00:00 2001
 From: Rafael Palomar <rafael.palomar@ous-research.no>
 Date: Thu, 26 Jan 2023 08:20:12 +0100
 Subject: [PATCH 5/5] Modify INSTALL_RPATH and INSTALL_NAME_DIR for install
@@ -9,7 +9,7 @@ Subject: [PATCH 5/5] Modify INSTALL_RPATH and INSTALL_NAME_DIR for install
  1 file changed, 2 insertions(+), 2 deletions(-)
 
 diff --git a/CMakeLists.txt b/CMakeLists.txt
-index 590ae7fc..abd94667 100644
+index 115bca5a..beb4a38f 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
 @@ -415,8 +415,8 @@ set_target_properties(teem PROPERTIES

@@ -23,9 +23,8 @@ Slicer-Loadable/Units 9999: Units module for 3D Slicer
 Slicer-Loadable/ViewControllers 9999: ViewControllers module for 3D-Slicer
 Slicer-Loadable/VolumeRendering 9999: VolueRendering module for 3D-Slicer
 Slicer-Loadable/Volumes 9999: Volumes module for 3D-Slicer
+Slicer-Scripted/CropVolumeSequence 9999: CropVolumeSequence module for 3D-Slicer
 Slicer-Scripted/DataProbe 9999: DataProbe module for 3D-Slicer
-Slicer-Scripted/Editor 9999: Editor module for 3D-Slicer
-Slicer-Scripted/EditorLib 9999: EditorLib module for 3D-Slicer
 Slicer-Scripted/Endoscopy 9999: Endoscopy module for 3D-Slicer
 Slicer-Scripted/LabelStatistics 9999: LabelStatistics module for 3D-Slicer
 Slicer-Scripted/PerformanceTests 9999: PerformanceTests module for 3D-Slicer

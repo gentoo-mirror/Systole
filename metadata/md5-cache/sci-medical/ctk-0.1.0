@@ -1,15 +1,15 @@
-BDEPEND=app-arch/unzip python? ( dev-python/PythonQt_CTK =sci-libs/vtk-9.1.0[python,qt5,rendering] ) !python? ( =sci-libs/vtk-9.1.0[qt5,rendering] ) dev-qt/designer dev-qt/qtconcurrent dev-qt/qtcore dev-qt/qtgui dev-qt/qtmultimedia dev-qt/qtnetwork dev-qt/qtopengl dev-qt/qtsql dev-qt/qttest dev-qt/qtwidgets dev-qt/qtxmlpatterns dev-qt/qtxml sci-libs/itk python? ( python_single_target_python3_9? ( >=dev-lang/python-3.9.16-r1:3.9 ) python_single_target_python3_10? ( >=dev-lang/python-3.10.9-r1:3.10 ) ) >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
+BDEPEND=app-arch/unzip python? ( dev-python/PythonQt_CTK =sci-libs/vtk-9.1.0[python,qt5,rendering] ) !python? ( =sci-libs/vtk-9.1.0[qt5,rendering] ) dev-qt/designer dev-qt/qtconcurrent dev-qt/qtcore dev-qt/qtgui dev-qt/qtmultimedia dev-qt/qtnetwork dev-qt/qtopengl dev-qt/qtsql dev-qt/qttest dev-qt/qtwidgets dev-qt/qtxmlpatterns dev-qt/qtxml sci-libs/itk[DICOM?] python? ( python_single_target_python3_9? ( >=dev-lang/python-3.9.16-r1:3.9 ) python_single_target_python3_10? ( >=dev-lang/python-3.10.9-r1:3.10 ) ) >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
 DEFINED_PHASES=compile configure install prepare setup test unpack
-DEPEND=python? ( dev-python/PythonQt_CTK =sci-libs/vtk-9.1.0[python,qt5,rendering] ) !python? ( =sci-libs/vtk-9.1.0[qt5,rendering] ) dev-qt/designer dev-qt/qtconcurrent dev-qt/qtcore dev-qt/qtgui dev-qt/qtmultimedia dev-qt/qtnetwork dev-qt/qtopengl dev-qt/qtsql dev-qt/qttest dev-qt/qtwidgets dev-qt/qtxmlpatterns dev-qt/qtxml sci-libs/itk
+DEPEND=python? ( dev-python/PythonQt_CTK =sci-libs/vtk-9.1.0[python,qt5,rendering] ) !python? ( =sci-libs/vtk-9.1.0[qt5,rendering] ) dev-qt/designer dev-qt/qtconcurrent dev-qt/qtcore dev-qt/qtgui dev-qt/qtmultimedia dev-qt/qtnetwork dev-qt/qtopengl dev-qt/qtsql dev-qt/qttest dev-qt/qtwidgets dev-qt/qtxmlpatterns dev-qt/qtxml sci-libs/itk[DICOM?]
 DESCRIPTION=A set of common support code for medical imaging, surgical navigation, and related purposes
 EAPI=8
 HOMEPAGE=https://www.commontk.org/
 INHERIT=python-single-r1 cmake
-IUSE=python python_single_target_python3_9 python_single_target_python3_10
+IUSE=python DICOM python_single_target_python3_9 python_single_target_python3_10
 LICENSE=Apache-2.0
-RDEPEND=python? ( dev-python/PythonQt_CTK =sci-libs/vtk-9.1.0[python,qt5,rendering] ) !python? ( =sci-libs/vtk-9.1.0[qt5,rendering] ) dev-qt/designer dev-qt/qtconcurrent dev-qt/qtcore dev-qt/qtgui dev-qt/qtmultimedia dev-qt/qtnetwork dev-qt/qtopengl dev-qt/qtsql dev-qt/qttest dev-qt/qtwidgets dev-qt/qtxmlpatterns dev-qt/qtxml sci-libs/itk python? ( python_single_target_python3_9? ( >=dev-lang/python-3.9.16-r1:3.9 ) python_single_target_python3_10? ( >=dev-lang/python-3.10.9-r1:3.10 ) )
+RDEPEND=python? ( dev-python/PythonQt_CTK =sci-libs/vtk-9.1.0[python,qt5,rendering] ) !python? ( =sci-libs/vtk-9.1.0[qt5,rendering] ) dev-qt/designer dev-qt/qtconcurrent dev-qt/qtcore dev-qt/qtgui dev-qt/qtmultimedia dev-qt/qtnetwork dev-qt/qtopengl dev-qt/qtsql dev-qt/qttest dev-qt/qtwidgets dev-qt/qtxmlpatterns dev-qt/qtxml sci-libs/itk[DICOM?] python? ( python_single_target_python3_9? ( >=dev-lang/python-3.9.16-r1:3.9 ) python_single_target_python3_10? ( >=dev-lang/python-3.10.9-r1:3.10 ) )
 REQUIRED_USE=python? ( ^^ ( python_single_target_python3_9 python_single_target_python3_10 ) )
 SLOT=0
 SRC_URI=https://github.com/commontk/CTK/archive/95dac75b80562b81db10555db5807648f4d17dee.zip -> ctk-0.1.0.zip
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	429bfd4e8d8e39db5385ba5744f30788	python-single-r1	75118e916668a74c660a13b0ecb22562	flag-o-matic	69394e25812406faa1f90edaf4969395	ninja-utils	38c85b725d0467e51954ea921b6c104b	xdg-utils	ac0e315a3688929e34ac75b139e7349a	cmake	b2e109b7341cd993b8bdfcc60652a14d
-_md5_=519f1d7411a788ce19994b7938ff509d
+_md5_=4b19a8b1b8daf253db0ef81c9b898ff9

@@ -26,6 +26,7 @@ Slicer-Loadable/Volumes 9999: Volumes module for 3D-Slicer
 Slicer-Scripted/CropVolumeSequence 9999: CropVolumeSequence module for 3D-Slicer
 Slicer-Scripted/DICOM 9999: DICOM module for 3D-Slicer
 Slicer-Scripted/DICOMLib 9999: DataProbe module for 3D-Slicer
+Slicer-Scripted/DICOMPatcher 9999: DICOMPatcher module for 3D-Slicer
 Slicer-Scripted/DataProbe 9999: DataProbe module for 3D-Slicer
 Slicer-Scripted/Endoscopy 9999: Endoscopy module for 3D-Slicer
 Slicer-Scripted/LabelStatistics 9999: LabelStatistics module for 3D-Slicer
@@ -44,6 +45,7 @@ sci-medical/Slicer 9999: 3D Slicer is an open source software for medical image 
 sci-medical/ctk 0.1.0: A set of common support code for medical imaging, surgical navigation, and related purposes
 sci-medical/elastix 9999: A toolbox for rigid and nonrigid registration of images
 sci-medical/gdcm 2.8.8: Implementation of the DICOM standard
+sci-medical/pydicom 2.3.1: Python package for parsing of DICOM files
 sci-medical/teem 1.12.0: Set of libraries for representing, processing and visualizing scientific raster data (3D Slicer maintained)
 sci-medical/vmtk 9999: The Vascular Modeling Toolkit
 x11-libs/gdk-pixbuf 2.42.8: Image loading library for GTK+

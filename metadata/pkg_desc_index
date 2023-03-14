@@ -32,6 +32,7 @@ Slicer-Scripted/DMRIInstall 9999: DMRIInstall module for 3D-Slicer
 Slicer-Scripted/DataProbe 9999: DataProbe module for 3D-Slicer
 Slicer-Scripted/Endoscopy 9999: Endoscopy module for 3D-Slicer
 Slicer-Scripted/ExtensionWizard 9999: ExtensionWizard module for 3D-Slicer
+Slicer-Scripted/ImportItkSnapLabel 9999: ImportItkSnapLabel module for 3D-Slicer
 Slicer-Scripted/LabelStatistics 9999: LabelStatistics module for 3D-Slicer
 Slicer-Scripted/PerformanceTests 9999: PerformanceTests module for 3D-Slicer
 Slicer-Scripted/SampleData 9999: SampleData module for 3D-Slicer

@@ -27,6 +27,8 @@ Slicer-Scripted/CropVolumeSequence 9999: CropVolumeSequence module for 3D-Slicer
 Slicer-Scripted/DICOM 9999: DICOM module for 3D-Slicer
 Slicer-Scripted/DICOMLib 9999: DataProbe module for 3D-Slicer
 Slicer-Scripted/DICOMPatcher 9999: DICOMPatcher module for 3D-Slicer
+Slicer-Scripted/DICOMPlugins 9999: DICOMPlugins module for 3D-Slicer
+Slicer-Scripted/DMRIInstall 9999: DMRIInstall module for 3D-Slicer
 Slicer-Scripted/DataProbe 9999: DataProbe module for 3D-Slicer
 Slicer-Scripted/Endoscopy 9999: Endoscopy module for 3D-Slicer
 Slicer-Scripted/LabelStatistics 9999: LabelStatistics module for 3D-Slicer

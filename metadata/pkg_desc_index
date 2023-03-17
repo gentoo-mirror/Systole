@@ -38,6 +38,8 @@ Slicer-Scripted/SampleData 9999: SampleData module for 3D-Slicer
 Slicer-Scripted/ScreenCapture 9999: ScreenCapture module for 3D-Slicer
 Slicer-Scripted/SegmentEditor 9999: SegmentEditor module for 3D-Slicer
 Slicer-Scripted/SegmentStatistics 9999: SegmentStatistics module for 3D-Slicer
+Slicer-Scripted/SelfTests 9999: SelfTests module for 3D-Slicer
+Slicer-Scripted/VectorToScalarVolume 9999: VectorToScalarVolume module for 3D-Slicer
 dev-libs/qRestAPI 9999: Simple Qt library allowing to synchronously or asynchronously query a REST server
 dev-python/PythonQt_CTK 3.1: PyhtonQt for CTK
 sci-libs/SimpleITK 1.2.4: A layer built on top of the Insight Toolkit (ITK), intended to simplify and facilitate ITK's use in rapid prototyping.

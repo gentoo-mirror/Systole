@@ -33,11 +33,11 @@ Slicer-Scripted/DataProbe 9999: DataProbe module for 3D-Slicer
 Slicer-Scripted/Endoscopy 9999: Endoscopy module for 3D-Slicer
 Slicer-Scripted/ExtensionWizard 9999: ExtensionWizard module for 3D-Slicer
 Slicer-Scripted/ImportItkSnapLabel 9999: ImportItkSnapLabel module for 3D-Slicer
-Slicer-Scripted/LabelStatistics 9999: LabelStatistics module for 3D-Slicer
 Slicer-Scripted/PerformanceTests 9999: PerformanceTests module for 3D-Slicer
 Slicer-Scripted/SampleData 9999: SampleData module for 3D-Slicer
 Slicer-Scripted/ScreenCapture 9999: ScreenCapture module for 3D-Slicer
 Slicer-Scripted/SegmentEditor 9999: SegmentEditor module for 3D-Slicer
+Slicer-Scripted/SegmentStatistics 9999: SegmentStatistics module for 3D-Slicer
 dev-libs/qRestAPI 9999: Simple Qt library allowing to synchronously or asynchronously query a REST server
 dev-python/PythonQt_CTK 3.1: PyhtonQt for CTK
 sci-libs/SimpleITK 1.2.4: A layer built on top of the Insight Toolkit (ITK), intended to simplify and facilitate ITK's use in rapid prototyping.

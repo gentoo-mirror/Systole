@@ -48,6 +48,7 @@ sci-libs/itk 5.3.0: NLM Insight Segmentation and Registration Toolkit
 sci-libs/vtk 9.1.0: This is the 3D Slicer Visualization Toolkit
 sci-libs/vtkAddon 0.1.0: General-purpose features that may be integrated into VTK library in the future.
 sci-medical/CTKAppLauncherLib 1.0.0: A set of common support code for medical imaging, surgical navigation, and related purposes
+sci-medical/IGSIO 9999: A collection of tools and algorithms for image guided systems
 sci-medical/Slicer 9999: 3D Slicer is an open source software for medical image processing and visualization
 sci-medical/ctk 0.1.0: A set of common support code for medical imaging, surgical navigation, and related purposes
 sci-medical/elastix 9999: A toolbox for rigid and nonrigid registration of images

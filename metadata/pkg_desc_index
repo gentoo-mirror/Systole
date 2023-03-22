@@ -3,6 +3,7 @@ Slicer-CLI/AddScalarVolumes 9999: AddScalarVolumes module for 3D-Slicer
 Slicer-CLI/ExtractSkeleton 9999: Extract Skeleton module for 3D Slicer
 Slicer-CLI/ModelMaker 9999: Model Maker module for 3D Slicer
 Slicer-CLI/SlicerExecutionModel 1.0.0: Insight Segmentation and Registratio Toolkit for Slicer
+Slicer-Extension/SlicerIGSIO 9999: Utility extension for 3D Slicer, containing tools and algorithms for building image guided surgery applications
 Slicer-Loadable/Annotations 9999: Annotations module for 3D-Slicer
 Slicer-Loadable/Cameras 9999: Cameras module for 3D-Slicer
 Slicer-Loadable/Colors 9999: Colors module for 3D-Slicer
@@ -13,6 +14,7 @@ Slicer-Loadable/Plots 9999: Plots module for 3D-Slicer
 Slicer-Loadable/Reformat 9999: Reformat module for 3D-Slicer
 Slicer-Loadable/SceneViews 9999: SceneViews module for 3D-Slicer
 Slicer-Loadable/Segmentations 9999: Segmentations module for 3D-Slicer
+Slicer-Loadable/Sequences 9999: Sequences module for 3D-Slicer
 Slicer-Loadable/SlicerWelcome 9999: Welcome module for 3D-Slicer
 Slicer-Loadable/SubjectHierarchy 9999: SubjectHierarchy module for 3D-Slicer
 Slicer-Loadable/Tables 9999: Tables module for 3D-Slicer
@@ -51,6 +53,7 @@ sci-medical/CTKAppLauncherLib 1.0.0: A set of common support code for medical im
 sci-medical/IGSIO 9999: A collection of tools and algorithms for image guided systems
 sci-medical/OpenIGTLink 9999: Free, open-source network communication library for image-guided therapy
 sci-medical/OpenIGTLinkIO 9999: Library for interfacing to openigtlink/OpenIGTLink, dependent on VTK and Qt. Based on openigtlink/OpenIGTLinkIF
+sci-medical/PlusApp 9999: Software applications that makes Plus library's data acquisition, calibration, and real-time straming features available to end-users.
 sci-medical/PlusLib 9999: Software library for data acquisition, pre-processing, and calibration for navigated image-guided interventions
 sci-medical/Slicer 9999: 3D Slicer is an open source software for medical image processing and visualization
 sci-medical/Slicer-bundle 9999: Bundle package for 3D Slicer

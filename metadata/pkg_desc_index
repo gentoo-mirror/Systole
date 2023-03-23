@@ -4,6 +4,7 @@ Slicer-CLI/ExtractSkeleton 9999: Extract Skeleton module for 3D Slicer
 Slicer-CLI/ModelMaker 9999: Model Maker module for 3D Slicer
 Slicer-CLI/SlicerExecutionModel 1.0.0: Insight Segmentation and Registratio Toolkit for Slicer
 Slicer-Extension/SlicerIGSIO 9999: Utility extension for 3D Slicer, containing tools and algorithms for building image guided surgery applications
+Slicer-Extension/SlicerIGT 9999: Utility extension for 3D Slicer, containing tools and algorithms for building image guided surgery applications
 Slicer-Loadable/Annotations 9999: Annotations module for 3D-Slicer
 Slicer-Loadable/Cameras 9999: Cameras module for 3D-Slicer
 Slicer-Loadable/Colors 9999: Colors module for 3D-Slicer

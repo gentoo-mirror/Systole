@@ -1,0 +1,7 @@
+DEFINED_PHASES=install unpack
+DESCRIPTION=Eselect module for managing PlusServer configuration files
+EAPI=7
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+SLOT=0
+_md5_=5d72cf7f6ef258882a3bef71dd885f8f

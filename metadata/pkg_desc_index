@@ -45,6 +45,9 @@ Slicer-Scripted/SegmentStatistics 9999: SegmentStatistics module for 3D-Slicer
 Slicer-Scripted/SelfTests 9999: SelfTests module for 3D-Slicer
 Slicer-Scripted/VectorToScalarVolume 9999: VectorToScalarVolume module for 3D-Slicer
 Slicer-Scripted/WebServer 9999: WebServer module for 3D-Slicer
+acct-group/plusserver 0: Group for PlusServer
+acct-user/plusserver 0: User for PlusServer
+app-eselect/eselect-PlusServerConfig 1: Eselect module for managing PlusServer configuration files
 dev-libs/qRestAPI 9999: Simple Qt library allowing to synchronously or asynchronously query a REST server
 dev-python/PythonQt_CTK 3.1: PyhtonQt for CTK
 sci-libs/SimpleITK 1.2.4: A layer built on top of the Insight Toolkit (ITK), intended to simplify and facilitate ITK's use in rapid prototyping.

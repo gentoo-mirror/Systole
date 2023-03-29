@@ -40,7 +40,7 @@ RDEPEND="
 "
 
 PATCHES=(
-	${FILESDIR}/0001-ENH-Make-Markups-a-separate-module.patch
+	"${FILESDIR}/${FILESDIR}/0001"-ENH-Make-Markups-a-separate-module.patch
 )
 
 pkg_setup() {

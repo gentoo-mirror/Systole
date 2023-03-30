@@ -6,10 +6,11 @@ EAPI=8
 HOMEPAGE=https://www.commontk.org/
 INHERIT=python-single-r1 cmake
 IUSE=python DICOM python_single_target_python3_9 python_single_target_python3_10
+KEYWORDS=~amd64 ~x86
 LICENSE=Apache-2.0
 RDEPEND=python? ( dev-python/PythonQt_CTK sci-libs/vtk:=[python,qt5,rendering] ) !python? ( sci-libs/vtk:=[qt5,rendering] ) dev-qt/designer dev-qt/qtconcurrent dev-qt/qtcore dev-qt/qtgui dev-qt/qtmultimedia dev-qt/qtnetwork dev-qt/qtopengl dev-qt/qtsql dev-qt/qttest dev-qt/qtwidgets dev-qt/qtxmlpatterns dev-qt/qtxml sci-libs/itk[DICOM?] python? ( python_single_target_python3_9? ( >=dev-lang/python-3.9.16-r1:3.9 ) python_single_target_python3_10? ( >=dev-lang/python-3.10.9-r1:3.10 ) )
 REQUIRED_USE=python? ( ^^ ( python_single_target_python3_9 python_single_target_python3_10 ) )
 SLOT=0
 SRC_URI=https://github.com/commontk/CTK/archive/95dac75b80562b81db10555db5807648f4d17dee.zip -> ctk-0.1.0.zip
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	d1408425c7c4a7669b9b17735404b693	python-utils-r1	429bfd4e8d8e39db5385ba5744f30788	python-single-r1	75118e916668a74c660a13b0ecb22562	flag-o-matic	514815b1cc0dd4aeac177c2e812b3b1a	ninja-utils	76050953ad5b70d7e09a6ca55558db92	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	7fb5980de96325cbab639f5b2187357c
-_md5_=8e039f8fee0350fa9371271cbf05b896
+_md5_=f7ca7b4976e9f1b599be2cf0dfa99ca1

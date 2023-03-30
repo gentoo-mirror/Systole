@@ -25,23 +25,23 @@ DEPEND="sci-libs/itk app-arch/unzip"
 RDEPEND="${DEPEND}"
 
 PATCHES=(
-	"${FILESDIR}/${FILESDIR}/0001"-ENH-Fix-path-to-install-ModuleDescriptionParserConfi.patch
-	"${FILESDIR}/${FILESDIR}/0002"-ENH-Remove-_install-from-.cmake_install-extension-in.patch
-	"${FILESDIR}/${FILESDIR}/0003"-ENH-Add-section-to-install-support-files-in-SlicerEx.patch
-	"${FILESDIR}/${FILESDIR}/0004"-ENH-Generate-configuration-file-for-install-ModuleDe.patch
-	"${FILESDIR}/${FILESDIR}/0005"-ENH-Generate-TCLAP-install-configuration-files.patch
-	"${FILESDIR}/${FILESDIR}/0006"-COMP-Fix-path-to-GenerateCLPConfig-for-install-tree.patch
-	"${FILESDIR}/${FILESDIR}/0007"-COMP-Add-the-SlicerExecutionModel_INSTALL_LIB_DIR-va.patch
-	"${FILESDIR}/${FILESDIR}/0008"-COMP-Remove-not-needed-SlicerExecutionModel_INCLUDE_.patch
-	"${FILESDIR}/${FILESDIR}/0009"-COMP-Modify-relative-path-for-ModuleDescriptionParse.patch
-	"${FILESDIR}/${FILESDIR}/0010"-COMP-Install-GenerateInstallCLPConfig.cmake-install-.patch
-	"${FILESDIR}/${FILESDIR}/0011"-COMP-Install-GenerateCLP.cmake-GenerateCLP-and-Gener.patch
-	"${FILESDIR}/${FILESDIR}/0012"-COMP-Fix-UseGenerateCLP.patch
-	"${FILESDIR}/${FILESDIR}/0013"-COMP-Fix-path-to-GenerateCLP-executable.patch
-	"${FILESDIR}/${FILESDIR}/0014"-COMP-Enable-automatic-inclusion-of-use-file-and-link.patch
-	"${FILESDIR}/${FILESDIR}/0015"-COMP-Fix-path-to-SEMCommandLineLibraryWrapper.cxx.patch
-	"${FILESDIR}/${FILESDIR}/0016"-COMP-Add-INSTALL_RPATH-property-to-CLI-exes-to-be-ab.patch
-	"${FILESDIR}/${FILESDIR}/0017"-ENH-Adding-path-to-libITKFactoryRegistration.so-CLP-.patch
+	${FILESDIR}/0001-ENH-Fix-path-to-install-ModuleDescriptionParserConfi.patch
+	${FILESDIR}/0002-ENH-Remove-_install-from-.cmake_install-extension-in.patch
+	${FILESDIR}/0003-ENH-Add-section-to-install-support-files-in-SlicerEx.patch
+	${FILESDIR}/0004-ENH-Generate-configuration-file-for-install-ModuleDe.patch
+	${FILESDIR}/0005-ENH-Generate-TCLAP-install-configuration-files.patch
+	${FILESDIR}/0006-COMP-Fix-path-to-GenerateCLPConfig-for-install-tree.patch
+	${FILESDIR}/0007-COMP-Add-the-SlicerExecutionModel_INSTALL_LIB_DIR-va.patch
+	${FILESDIR}/0008-COMP-Remove-not-needed-SlicerExecutionModel_INCLUDE_.patch
+	${FILESDIR}/0009-COMP-Modify-relative-path-for-ModuleDescriptionParse.patch
+	${FILESDIR}/0010-COMP-Install-GenerateInstallCLPConfig.cmake-install-.patch
+	${FILESDIR}/0011-COMP-Install-GenerateCLP.cmake-GenerateCLP-and-Gener.patch
+	${FILESDIR}/0012-COMP-Fix-UseGenerateCLP.patch
+	${FILESDIR}/0013-COMP-Fix-path-to-GenerateCLP-executable.patch
+	${FILESDIR}/0014-COMP-Enable-automatic-inclusion-of-use-file-and-link.patch
+	${FILESDIR}/0015-COMP-Fix-path-to-SEMCommandLineLibraryWrapper.cxx.patch
+	${FILESDIR}/0016-COMP-Add-INSTALL_RPATH-property-to-CLI-exes-to-be-ab.patch
+	${FILESDIR}/0017-ENH-Adding-path-to-libITKFactoryRegistration.so-CLP-.patch
 )
 
 src_unpack() {
@@ -50,7 +50,7 @@ src_unpack() {
 	if [ "${A}"  != "" ]; then
 		unpack ${A}
 	fi
-	mv "${WORKDIR}/${PN}-${COMMIT}" "${WORKDIR}/${PN}-${PV}"
+	mv ${WORKDIR}/${PN}-${COMMIT} ${WORKDIR}/${PN}-${PV}
 
 }
 

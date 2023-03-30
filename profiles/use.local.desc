@@ -6,6 +6,7 @@ sci-libs/itk:deprecated - Build deprecated modules
 sci-libs/itk:dicom - Build dicom support
 sci-libs/itk:review - Enable compilation of methods under review
 sci-libs/itk:vtkglue - Build vtkGlue support
+sci-medical/IGSIO:volume-reconstruction - Builds the volume reconstruction module
 sci-medical/Slicer:cli - Build command-line-interface support
 sci-medical/Slicer:python - Build python support
 sci-medical/Slicer:sitk - Build support for SimpleITK

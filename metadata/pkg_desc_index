@@ -2,7 +2,7 @@ Slicer-CLI/ACPCTransform 9999: ACPCTransorm module for 3D Slicer
 Slicer-CLI/AddScalarVolumes 9999: AddScalarVolumes module for 3D-Slicer
 Slicer-CLI/ExtractSkeleton 9999: Extract Skeleton module for 3D Slicer
 Slicer-CLI/ModelMaker 9999: Model Maker module for 3D Slicer
-Slicer-CLI/SlicerExecutionModel 1.0.0: Insight Segmentation and Registratio Toolkit for Slicer
+Slicer-CLI/SlicerExecutionModel 1.0.0: Macros and associated tools for the easy building of 3D Slicer command line interface (CLI) modules.
 Slicer-Extension/SlicerIGSIO 9999: Utility extension for 3D Slicer, containing tools and algorithms for building image guided surgery applications
 Slicer-Extension/SlicerIGT 9999: Utility extension for 3D Slicer, containing tools and algorithms for building image guided surgery applications
 Slicer-Extension/SlicerOpenIGTLink 9999: Extension for 3D Slicer, containing tools and algorithms for building image guided surgery applications

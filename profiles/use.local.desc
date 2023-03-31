@@ -2,12 +2,18 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+sci-libs/itk:DICOM - Build dicom support
 sci-libs/itk:deprecated - Build deprecated modules
-sci-libs/itk:dicom - Build dicom support
 sci-libs/itk:review - Enable compilation of methods under review
 sci-libs/itk:vtkglue - Build vtkGlue support
 sci-medical/IGSIO:volume-reconstruction - Builds the volume reconstruction module
+sci-medical/PlusApp:OpenIGTLink - Builds OpenIGTLink support
+sci-medical/PlusApp:fCal - Build support for fCal calibration support
+sci-medical/PlusLib:OpenIGTLink - Builds OpenIGTLink support
+sci-medical/PlusLib:tools - Build additional tools like the PlusServer
+sci-medical/PlusLib:widgets - Build UI
+sci-medical/Slicer:DICOM - Build DICOM support
 sci-medical/Slicer:cli - Build command-line-interface support
 sci-medical/Slicer:python - Build python support
-sci-medical/Slicer:sitk - Build support for SimpleITK
+sci-medical/ctk:DICOM - Build DICOM support
 sci-medical/ctk:python - Build python support

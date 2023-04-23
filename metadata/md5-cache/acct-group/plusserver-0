@@ -4,5 +4,5 @@ EAPI=7
 INHERIT=acct-group
 KEYWORDS=alpha amd64 arm arm64 hppa ia64 m68k ppc ppc64 s390 sparc x86
 SLOT=0
-_eclasses_=user-info	83547b4df3e1ba5a6bf91a0837eaa664	acct-group	6224efee7b8321990d1eb9cc0d644d84
+_eclasses_=user-info	83547b4df3e1ba5a6bf91a0837eaa664	acct-group	c5bc6ab32cd6552df855b3fd22968f98
 _md5_=b320502b324e59e1dac20ed099d7c0ca

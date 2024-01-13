@@ -63,7 +63,7 @@ sci-medical/Slicer 9999: Open source medical image processing and visualization 
 sci-medical/Slicer-bundle 9999: Bundle package for 3D Slicer
 sci-medical/ctk 0.1.0: Support code for medical imaging and surgical navigation
 sci-medical/elastix 9999: A toolbox for rigid and nonrigid registration of images
-sci-medical/gdcm 2.8.8: Implementation of the DICOM standard
+sci-medical/gdcm 3.0.23: Implementation of the DICOM standard
 sci-medical/pydicom 2.3.1: Python package for parsing of DICOM files
 sci-medical/teem 1.12.0: Scientific raster data processing and visualization libraries
 sci-medical/vmtk 9999: The Vascular Modeling Toolkit

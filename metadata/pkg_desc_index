@@ -4,52 +4,10 @@ Slicer-CLI/ExtractSkeleton 9999: Extract Skeleton module for 3D Slicer
 Slicer-CLI/ModelMaker 9999: Model Maker module for 3D Slicer
 Slicer-CLI/SlicerExecutionModel 1.0.0: Tools for building 3D Slicer CLI modules with macros
 Slicer-Extension/SlicerIGSIO 9999: 3D Slicer Extension with image-guided surgery tools and algorithms.
-Slicer-Extension/SlicerIGT 9999: 3D Slicer Extension with image-guided surgery tools and algorithms.
-Slicer-Extension/SlicerOpenIGTLink 9999: 3D Slicer extension for building image guided surgery applications
-Slicer-Loadable/Annotations 9999: Annotations module for 3D-Slicer
-Slicer-Loadable/Cameras 9999: Cameras module for 3D-Slicer
-Slicer-Loadable/Colors 9999: Colors module for 3D-Slicer
-Slicer-Loadable/Data 9999: Data module for 3D-Slicer
-Slicer-Loadable/Markups 9999: Markups module for 3D-Slicer
-Slicer-Loadable/Models 9999: Models module for 3D-Slicer
-Slicer-Loadable/Plots 9999: Plots module for 3D-Slicer
-Slicer-Loadable/Reformat 9999: Reformat module for 3D-Slicer
-Slicer-Loadable/SceneViews 9999: SceneViews module for 3D-Slicer
-Slicer-Loadable/Segmentations 9999: Segmentations module for 3D-Slicer
-Slicer-Loadable/Sequences 9999: Sequences module for 3D-Slicer
-Slicer-Loadable/SlicerWelcome 9999: Welcome module for 3D-Slicer
-Slicer-Loadable/SubjectHierarchy 9999: SubjectHierarchy module for 3D-Slicer
-Slicer-Loadable/Tables 9999: Tables module for 3D-Slicer
-Slicer-Loadable/Terminologies 9999: Terminologies module for 3D-Slicer
-Slicer-Loadable/Texts 9999: Texts module for 3D-Slicer
-Slicer-Loadable/Transforms 9999: Transforms module for 3D-Slicer
-Slicer-Loadable/Units 9999: Units module for 3D Slicer
-Slicer-Loadable/ViewControllers 9999: ViewControllers module for 3D-Slicer
-Slicer-Loadable/VolumeRendering 9999: VolueRendering module for 3D-Slicer
-Slicer-Loadable/Volumes 9999: Volumes module for 3D-Slicer
-Slicer-Scripted/CropVolumeSequence 9999: CropVolumeSequence module for 3D-Slicer
-Slicer-Scripted/DICOM 9999: DICOM module for 3D-Slicer
-Slicer-Scripted/DICOMLib 9999: DataProbe module for 3D-Slicer
-Slicer-Scripted/DICOMPatcher 9999: DICOMPatcher module for 3D-Slicer
-Slicer-Scripted/DICOMPlugins 9999: DICOMPlugins module for 3D-Slicer
-Slicer-Scripted/DMRIInstall 9999: DMRIInstall module for 3D-Slicer
-Slicer-Scripted/DataProbe 9999: DataProbe module for 3D-Slicer
-Slicer-Scripted/Endoscopy 9999: Endoscopy module for 3D-Slicer
-Slicer-Scripted/ExtensionWizard 9999: ExtensionWizard module for 3D-Slicer
-Slicer-Scripted/ImportItkSnapLabel 9999: ImportItkSnapLabel module for 3D-Slicer
-Slicer-Scripted/PerformanceTests 9999: PerformanceTests module for 3D-Slicer
-Slicer-Scripted/SampleData 9999: SampleData module for 3D-Slicer
-Slicer-Scripted/ScreenCapture 9999: ScreenCapture module for 3D-Slicer
-Slicer-Scripted/SegmentEditor 9999: SegmentEditor module for 3D-Slicer
-Slicer-Scripted/SegmentStatistics 9999: SegmentStatistics module for 3D-Slicer
-Slicer-Scripted/SelfTests 9999: SelfTests module for 3D-Slicer
-Slicer-Scripted/VectorToScalarVolume 9999: VectorToScalarVolume module for 3D-Slicer
-Slicer-Scripted/WebServer 9999: WebServer module for 3D-Slicer
 acct-group/plusserver 0: Group for PlusServer
 acct-user/plusserver 0: User for PlusServer
 app-eselect/eselect-PlusServerConfig 1: Eselect module for managing PlusServer configuration files
 dev-libs/qRestAPI 9999: qRestAPI: Tools for developing RESTful web services with Qt
-dev-python/PythonQt_CTK 3.1: PyhtonQt for CTK
 sci-libs/SimpleITK 1.2.4: SimpleITK: Simplifying and facilitating rapid prototyping with ITK
 sci-libs/itk 5.3.0: NLM Insight Segmentation and Registration Toolkit
 sci-libs/vtkAddon 0.1.0: General-purpose features that may be integrated into VTK library in the future.
@@ -59,9 +17,7 @@ sci-medical/OpenIGTLink 9999: Free, open-source network communication library fo
 sci-medical/OpenIGTLinkIO 9999: Library for interfacing with OpenIGTLink using VTK and Qt
 sci-medical/PlusApp 9999: Software for end-users to access Plus library's features
 sci-medical/PlusLib 9999: Library for image-guided intervention data acquisition and pre-processing
-sci-medical/Slicer 9999: Open source medical image processing and visualization software
 sci-medical/Slicer-bundle 9999: Bundle package for 3D Slicer
-sci-medical/ctk 0.1.0: Support code for medical imaging and surgical navigation
 sci-medical/elastix 9999: A toolbox for rigid and nonrigid registration of images
 sci-medical/gdcm 3.0.23: Implementation of the DICOM standard
 sci-medical/pydicom 2.3.1: Python package for parsing of DICOM files

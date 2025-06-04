@@ -20,7 +20,6 @@ sci-medical/PlusLib 9999: Library for image-guided intervention data acquisition
 sci-medical/Slicer-bundle 9999: Bundle package for 3D Slicer
 sci-medical/elastix 9999: A toolbox for rigid and nonrigid registration of images
 sci-medical/gdcm 3.0.23: Implementation of the DICOM standard
-sci-medical/pydicom 2.3.1: Python package for parsing of DICOM files
 sci-medical/teem 1.12.0: Scientific raster data processing and visualization libraries
 sci-medical/vmtk 9999: The Vascular Modeling Toolkit
 x11-libs/gdk-pixbuf 2.42.8: Image loading library for GTK+
